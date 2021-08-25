@@ -7,6 +7,7 @@ setup(
    license="MIT",
    author='Daniel Torac',
    author_email='daniel.torac@gmail.com',
+   url="https://github.com/rajkane/AquaLight-Calculator",
    packages=['AquaLight-Calculator'],
    install_requires=['PyQt5>=5.15.4'],
 )
