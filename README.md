@@ -10,7 +10,7 @@ in, change to dark green. the other fields are output
 parameters. They can be light red or, in the correct 
 case, light green.
 
-You van choose types of lamps in the aplication:
+You can choose types of lamps in the aplication:
 * light bulb,
 * LED,
 * T5,
