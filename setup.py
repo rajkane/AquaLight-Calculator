@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
    name='AquaLight-Calculator',
-   version='0.9',
+   version='1.0',
    description='application for aquarists who need to calculate the optimal lighting for their tanks.',
    license="MIT",
    author='Daniel Torac',

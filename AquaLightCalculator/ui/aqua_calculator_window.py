@@ -412,7 +412,7 @@ class Ui_MainWindow(object):
         self.lbl_illuminance_bottom.setText(_translate("MainWindow", "Illuminance on the tank bottom"))
         self.lbl_lux_bottom.setText(_translate("MainWindow", "lx"))
         self.lbl_recommendation.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-weight:600;\">Recommendation:</span></p><p>Use a LED light with chromation in range 3500 - 6500 Kelvin.</p><p>Luminous flux should has values in range 60 - 90 lumen on the tank bottom.</p></body></html>"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_power_light), _translate("MainWindow", "I know the power of light"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_power_light), _translate("MainWindow", "Calculator"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_about), _translate("MainWindow", "About"))
 
 
