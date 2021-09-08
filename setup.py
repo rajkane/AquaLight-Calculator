@@ -1,5 +1,8 @@
 from setuptools import setup
 
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 setup(
    name='AquaLight-Calculator',
    version='1.0.0',
@@ -9,5 +12,5 @@ setup(
    author_email='daniel.torac@gmail.com',
    url="https://github.com/rajkane/AquaLight-Calculator",
    packages=['AquaLight-Calculator'],
-   install_requires=['PyQt5>=5.15.4'],
+   install_requires=required,
 )
