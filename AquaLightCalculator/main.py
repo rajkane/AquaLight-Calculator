@@ -3,7 +3,7 @@ from controller.aqua_calculator import MainWindow
 import sys
 
 
-def main():
+def run():
     app = QApplication(sys.argv)
     app.setApplicationName("AquaLight Calculator")
     app.setApplicationVersion("1.0.0")
@@ -13,4 +13,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    run()
