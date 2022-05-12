@@ -1,7 +1,7 @@
+import sys
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication
-from controller.aqua_calculator import MainWindow
-import sys
+from AquaLightCalculator.controller.aqua_calculator import MainWindow
 
 
 def run():
