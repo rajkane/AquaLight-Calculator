@@ -8,7 +8,7 @@ def run():
     app = QApplication(sys.argv)
     app.setApplicationName("AquaLight Calculator")
     app.setWindowIcon(QIcon("fish.ico"))
-    app.setApplicationVersion("1.0.0")
+    app.setApplicationVersion("1.0.1")
     mw = MainWindow()
     mw.show()
     sys.exit(app.exec_())
