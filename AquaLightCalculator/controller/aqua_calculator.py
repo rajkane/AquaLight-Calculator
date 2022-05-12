@@ -1,4 +1,4 @@
-from AquaLightCalculator.controller import *
+from AquaLightCalculator import *
 from AquaLightCalculator.ui.aqua_calculator_window import Ui_MainWindow
 
 
