@@ -7,6 +7,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(parent=parent)
         self.setupUi(self)
         self.setWindowFlags(Qt.WindowCloseButtonHint | Qt.WindowMinimizeButtonHint)
+        self.tabWidget.setCurrentIndex(0)
         self.__actions()
         self.__calculate_flux()
         self.statusBar().showMessage("Ready")
