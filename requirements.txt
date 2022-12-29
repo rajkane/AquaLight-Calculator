@@ -1,2 +1,2 @@
-setuptools==62.2.0
+setuptools==65.5.1
 PyQt5~=5.15.4
